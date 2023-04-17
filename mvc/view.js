@@ -22,9 +22,9 @@ export const View = (() => {
           isChecked = "checked";
           completedtmp += `        
             <li>
-              
               <span id="${ele.id}" class="${isChecked}">${ele.title}</span>
               <button class="deletebtn">X</button>
+              <button class="editbtn">edit</button>
               <button class="completedbtn"><-</button> 
             </li>
           `;

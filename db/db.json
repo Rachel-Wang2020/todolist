@@ -11,11 +11,6 @@
       "completed": false
     },
     {
-      "title": "bbb",
-      "completed": true,
-      "id": 6
-    },
-    {
       "title": "kkk",
       "completed": false,
       "id": 8
@@ -32,22 +27,17 @@
     },
     {
       "title": "hhhh",
-      "completed": false,
+      "completed": true,
       "id": 12
     },
     {
       "title": "nhnh",
-      "completed": false,
+      "completed": true,
       "id": 13
     },
     {
-      "title": "hhhhhh",
-      "completed": false,
-      "id": 14
-    },
-    {
       "title": "nnnn",
-      "completed": false,
+      "completed": true,
       "id": 15
     }
   ]
