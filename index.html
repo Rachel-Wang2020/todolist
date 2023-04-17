@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+        <script type="module" src="index.js"></script>
+        <title>Document</title>
+
+    </head>
+    <body>
+        <div class="app">
+
+            <div class="form">
+                <input type="text" id="input_text" />
+                <button type="submit" class="todolist__input">
+                    submit
+                </button>
+            </div>
+            <section class="todolist">
+
+                <div class='group' id="todolist_container">
+                    <div class="taskgroup group-1">
+                        <h4>Pending Tasks</h4>
+                        <ul id="pendingtodolist_container">
+                            <li>
+                                <span>todo</span>
+                                <button>edit</button>
+                                <button>X</button>
+                                <button>-></button>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="taskgroup group-2">
+                        <h4>Completed Tasks</h4>
+                        <ul id="completedtodolist_container">
+                            <li>
+                                <button><-</button>
+                                <span>todo</span>
+                                <button>edit</button>
+                                <button>X</button>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </section>
+        </div>
+
+        
+    </body>
+</html>
